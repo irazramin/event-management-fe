@@ -1,12 +1,27 @@
 .event-category-filter {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
-.event-header {
+.tool-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.event-header {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
 }
 
 .toggle-button {
@@ -214,7 +229,7 @@ input[type="text"] {
 }
 
 .event-view-toggle {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 button .active {
